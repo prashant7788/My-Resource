@@ -1,0 +1,40 @@
+name,type,query
+broken_file,error,"Syntax error: '(' was never closed (broken_file.py, line 10)"
+math_utils,module,"Sample math utilities module.
+
+This module provides basic mathematical operations."
+math,import,import math
+typing.Union,import_from,from typing import Union
+"add_numbers(a, b)",function,"Add two numbers together.
+
+Args:
+    a: First number
+    b: Second number
+    
+Returns:
+    Sum of the two numbers"
+"multiply_numbers(x, y)",function,Multiply two numbers and return the result.
+Calculator,class,A simple calculator class for basic operations.
+Calculator.__init__(self),method,Initialize the calculator.
+"Calculator.divide(self, dividend, divisor)",method,"Divide two numbers.
+
+Args:
+    dividend: Number to be divided
+    divisor: Number to divide by
+    
+Returns:
+    Result of division
+    
+Raises:
+    ValueError: If divisor is zero"
+Calculator.get_history(self),method,Get calculation history.
+data_processor,module,Data processing utilities for CSV and JSON files.
+csv,import,import csv
+json,import,import json
+pathlib.Path,import_from,from pathlib import Path
+DataProcessor,class,Process various data formats.
+"DataProcessor.read_csv(self, filename)",method,Read data from a CSV file.
+"DataProcessor.write_json(self, data, filename)",method,Write data to a JSON file.
+"process_file(input_path, output_path)",function,"Process a file and convert it to another format.
+
+This function takes an input file and processes it."
