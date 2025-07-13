@@ -1,0 +1,20 @@
+# Generated files
+*.csv
+!phishingcampaign.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Testing and development
+/tmp/
+test_*.py
+*_test.csv
+sample_output.csv
+current_directory_export.csv
+error_test.csv
+improved_output.csv
